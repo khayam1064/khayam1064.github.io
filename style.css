@@ -427,24 +427,6 @@ h1, h2, h3, h4, h5, h6 {
   gap: 12px;
 }
 
-.sound-toggle-btn {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--border-light);
-  color: var(--text-secondary);
-  width: 38px;
-  height: 38px;
-  border-radius: 10px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all var(--trans-fast);
-}
-.sound-toggle-btn:hover {
-  color: var(--cyan-glow);
-  border-color: rgba(0, 240, 255, 0.3);
-}
-
 .mobile-toggle {
   display: none;
   background: transparent;
